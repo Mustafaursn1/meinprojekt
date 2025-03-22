@@ -1,1 +1,4 @@
-com/example/App.class
+com/example/BeansLogger.class
+com/example/TemperatureService.class
+com/example/TemperatureController.class
+com/example/MeinProjektApplication.class
