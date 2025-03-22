@@ -31,9 +31,9 @@ public class TemperatureServiceTest {
 
     @ParameterizedTest
     @MethodSource("celsiusFahrenheitSource")
-    void test_toFahrenheit(double celcius, double expectedFahrenheit) {
+    void test_toFahrenheit(double celsius, double expectedFahrenheit) {
 
-        double computedFahrenheit = temperatureService.toFahrenheit(celcius);
+        double computedFahrenheit = temperatureService.toFahrenheit(celsius);
 
         Assertions.assertEquals(expectedFahrenheit, computedFahrenheit, 0.001d);
     }

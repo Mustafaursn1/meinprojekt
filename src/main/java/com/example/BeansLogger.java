@@ -30,8 +30,8 @@ public class BeansLogger implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        log.info("Hello World!");
-        log.info(context.getApplicationName());
+        //log.info("Hello World!");
+        //log.info(context.getApplicationName());
         Stream.of(context.getBeanDefinitionNames()).forEach(log::info);
 
     }
